@@ -177,11 +177,19 @@
       "canvas:Criar novo canvas": false,
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
-      "command-palette:Abrir paleta de comandos": false
+      "command-palette:Abrir paleta de comandos": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "483003dbd2884280",
   "lastOpenFiles": [
+    "pdfs/Árvores.pdf",
+    "pdfs",
+    "Nova pasta",
+    "Pasted image 20250110105533.png",
+    "Pasted image 20250110105337.png",
+    "Pasted image 20250110105122.png",
+    "Pasted image 20250110103028.png",
     "2025-01-09.md",
     "Estrutura de dados 2/Árvores.pdf",
     "Sem título.canvas",
