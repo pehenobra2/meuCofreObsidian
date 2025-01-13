@@ -6,7 +6,6 @@
       {
         "id": "f4911826ac153f2f",
         "type": "tabs",
-        "dimension": 78.63247863247864,
         "children": [
           {
             "id": "483003dbd2884280",
@@ -14,29 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estrutura de dados 2/Árvores.md",
+                "file": "Faculdade/Estrutura de dados 2/Árvores.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
               "title": "Árvores"
-            }
-          }
-        ]
-      },
-      {
-        "id": "92bb8cf5692a1fe8",
-        "type": "tabs",
-        "dimension": 21.367521367521366,
-        "children": [
-          {
-            "id": "95a3a01fc4bcb09e",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Visualização em gráfico"
             }
           }
         ]
@@ -95,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "f6b1d15f12fdd42a",
@@ -162,13 +145,23 @@
               "icon": "lucide-list",
               "title": "Sumário de Sem título"
             }
+          },
+          {
+            "id": "ce2d6077a242d0a5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,22 +176,26 @@
   },
   "active": "483003dbd2884280",
   "lastOpenFiles": [
+    "Sem título",
+    "Faculdade",
+    "Sem título.md",
+    "Faculdade/Estrutura de dados 2/Árvores.md",
+    "2025-01-09.md",
+    "Imagens",
     "pdfs/Árvores.pdf",
     "pdfs",
     "Nova pasta",
-    "Pasted image 20250110105533.png",
-    "Pasted image 20250110105337.png",
-    "Pasted image 20250110105122.png",
-    "Pasted image 20250110103028.png",
-    "2025-01-09.md",
+    "Imagens/Pasted image 20250110105533.png",
+    "Imagens/Pasted image 20250110105337.png",
+    "Imagens/Pasted image 20250110105122.png",
+    "Imagens/Pasted image 20250110103028.png",
     "Estrutura de dados 2/Árvores.pdf",
     "Sem título.canvas",
-    "Estrutura de dados 2/Árvores.md",
-    "Pasted image 20250109143755.png",
-    "Pasted image 20250109143545.png",
-    "Pasted image 20250109114914.png",
-    "Pasted image 20250109120011.png",
+    "Imagens/Pasted image 20250109143755.png",
+    "Imagens/Pasted image 20250109143545.png",
+    "Imagens/Pasted image 20250109114914.png",
+    "Imagens/Pasted image 20250109120011.png",
     "Estrutura de dados 2.md",
-    "Estrutura de dados 2"
+    "Faculdade/Estrutura de dados 2"
   ]
 }
