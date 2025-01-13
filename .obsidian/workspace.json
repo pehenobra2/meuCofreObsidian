@@ -77,8 +77,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "f6b1d15f12fdd42a",
@@ -174,7 +173,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "483003dbd2884280",
+  "active": "ce2d6077a242d0a5",
   "lastOpenFiles": [
     "Sem título",
     "Faculdade",
