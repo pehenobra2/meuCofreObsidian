@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f4911826ac153f2f",
+        "id": "36d350c78b8a388e",
         "type": "tabs",
         "children": [
           {
-            "id": "483003dbd2884280",
+            "id": "c22c0b950c98b838",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -154,9 +154,29 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "0f20fcecbd28008a",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "9e07e8bbb256522a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -170,15 +190,21 @@
       "daily-notes:Abrir a nota de hoje": false,
       "templates:Inserir modelo": false,
       "command-palette:Abrir paleta de comandos": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Criar um novo quadro": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ce2d6077a242d0a5",
+  "active": "c22c0b950c98b838",
   "lastOpenFiles": [
+    "Faculdade/Estrutura de dados 2/Árvores.md",
+    "Excalidraw/Drawing 2025-01-13 15.51.49.excalidraw.md",
+    "Excalidraw",
+    "Kanban sem título.md",
     "Sem título",
     "Faculdade",
     "Sem título.md",
-    "Faculdade/Estrutura de dados 2/Árvores.md",
     "2025-01-09.md",
     "Imagens",
     "pdfs/Árvores.pdf",
