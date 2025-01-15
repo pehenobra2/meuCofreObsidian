@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "ddad03dc6a22232b",
+        "id": "32c6c9af8431327e",
         "type": "tabs",
         "children": [
           {
-            "id": "6bfc59be8f77ee22",
+            "id": "1150cf02e1f7b310",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Faculdade/Técnicas de Programação em Plataforma Emergentes/Introdução a refatoração.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Introdução a refatoração"
+              "title": "Nova aba"
             }
           }
         ]
@@ -139,10 +135,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Faculdade/Técnicas de Programação em Plataforma Emergentes/Introdução a refatoração.md"
+                "file": "Calendário/16-01-2025.md"
               },
               "icon": "lucide-list",
-              "title": "Sumário de Introdução a refatoração"
+              "title": "Sumário de 16-01-2025"
             }
           },
           {
@@ -196,14 +192,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a902fd9bc006b75a",
+  "active": "1150cf02e1f7b310",
   "lastOpenFiles": [
+    "Calendário/16-01-2025.md",
+    "Planejamentos/Modelos/Planejamento Mensal.md",
+    "Calendário/16/01/2025.md",
+    "Calendário/16/01",
+    "Calendário/16",
+    "Calendário",
+    "Planejamentos/Modelos/Planejamento diário.md",
+    "Faculdade/Técnicas de Programação em Plataforma Emergentes/Introdução a refatoração.md",
+    "Planejamentos/Modelos",
+    "Planejamentos/Sem título.md",
+    "Planejamentos/Planejamento diário/{{date}}.md",
+    "Planejamentos/Planejamento semanal",
+    "Planejamentos/Planejamento semanal.md",
+    "Planejamentos/Planejamento mensal.md",
+    "Planejamentos/Planejamento diário",
     "pdfs/Introdução a refatoração.pdf",
     "Faculdade/Técnicas de Programação em Plataforma Emergentes/Desenvolvimento Orientado a Testes (TDD).md",
-    "Faculdade/Técnicas de Programação em Plataforma Emergentes/Introdução a refatoração.md",
-    "Planejamentos/Planejamento mensal.md",
     "Planejamentos",
-    "Planejamentos/Planejamento semanal.md",
     "Faculdade/Estrutura de dados 2/Árvores.md",
     "Faculdade/Estrutura de dados 2/Árvore rubro-negra.md",
     "pdfs/Desenvolvimento Orientado a Testes (TDD).pdf",
@@ -217,15 +225,8 @@
     "Imagens/Pasted image 20250110105533.png",
     "Faculdade/Técnicas de Programação em Plataforma Emergentes",
     "Faculdade/Estrutura de dados 2/Sem título.md",
-    "Excalidraw",
     "Kanban sem título.md",
-    "Faculdade",
     "2025-01-09.md",
-    "Imagens",
-    "pdfs/Árvores.pdf",
-    "pdfs",
-    "Nova pasta",
-    "Estrutura de dados 2/Árvores.pdf",
     "Sem título.canvas",
     "Imagens/Pasted image 20250109143545.png",
     "Estrutura de dados 2.md"
