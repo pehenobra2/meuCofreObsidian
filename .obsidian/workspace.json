@@ -11,10 +11,14 @@
             "id": "1150cf02e1f7b310",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Faculdade/Técnicas de Programação em Plataforma Emergentes/Introdução a refatoração.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Introdução a refatoração"
             }
           }
         ]
@@ -135,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Calendário/16-01-2025.md"
+                "file": "Faculdade/Técnicas de Programação em Plataforma Emergentes/Introdução a refatoração.md"
               },
               "icon": "lucide-list",
-              "title": "Sumário de 16-01-2025"
+              "title": "Outline of Introdução a refatoração"
             }
           },
           {
@@ -167,8 +171,8 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -187,12 +191,20 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-git:Open Git source control": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "1150cf02e1f7b310",
   "lastOpenFiles": [
+    "Faculdade/Técnicas de Programação em Plataforma Emergentes/Desenvolvimento Orientado a Testes (TDD).md",
+    "Faculdade/Estrutura de dados 2/Árvores.md",
+    "Faculdade/Estrutura de dados 2/Árvore rubro-negra esquerdista.md",
+    "Calendário/15-01-2025.md",
     "Calendário/16-01-2025.md",
+    "English/Past.md",
+    "English",
     "Planejamentos/Modelos/Planejamento Mensal.md",
     "Calendário/16/01/2025.md",
     "Calendário/16/01",
@@ -208,10 +220,7 @@
     "Planejamentos/Planejamento mensal.md",
     "Planejamentos/Planejamento diário",
     "pdfs/Introdução a refatoração.pdf",
-    "Faculdade/Técnicas de Programação em Plataforma Emergentes/Desenvolvimento Orientado a Testes (TDD).md",
     "Planejamentos",
-    "Faculdade/Estrutura de dados 2/Árvores.md",
-    "Faculdade/Estrutura de dados 2/Árvore rubro-negra.md",
     "pdfs/Desenvolvimento Orientado a Testes (TDD).pdf",
     "Excalidraw/Drawing 2025-01-13 15.51.49.excalidraw.md",
     "Imagens/Pasted image 20250109120011.png",
@@ -221,7 +230,6 @@
     "Imagens/Pasted image 20250110105122.png",
     "Imagens/Pasted image 20250110105337.png",
     "Imagens/Pasted image 20250110105533.png",
-    "Faculdade/Técnicas de Programação em Plataforma Emergentes",
     "Faculdade/Estrutura de dados 2/Sem título.md",
     "Kanban sem título.md",
     "2025-01-09.md",
