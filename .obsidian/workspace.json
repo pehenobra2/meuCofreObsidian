@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Faculdade/Técnicas de Programação em Plataforma Emergentes/Introdução a refatoração.md",
+                "file": "Faculdade/Estrutura de dados 2/Árvore rubro-negra esquerdista.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introdução a refatoração"
+              "title": "Árvore rubro-negra esquerdista"
             }
           }
         ]
@@ -43,7 +43,7 @@
                 "sortOrder": "alphabetical"
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Faculdade/Técnicas de Programação em Plataforma Emergentes/Introdução a refatoração.md"
+                "file": "Calendário/16-01-2025.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Introdução a refatoração"
+              "title": "Sumário de 16-01-2025"
             }
           },
           {
@@ -161,8 +161,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -184,27 +184,25 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-kanban:Create new board": false,
+      "obsidian-kanban:Criar um novo quadro": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
   "active": "1150cf02e1f7b310",
   "lastOpenFiles": [
-    "Faculdade/Técnicas de Programação em Plataforma Emergentes/Desenvolvimento Orientado a Testes (TDD).md",
-    "Faculdade/Estrutura de dados 2/Árvores.md",
     "Faculdade/Estrutura de dados 2/Árvore rubro-negra esquerdista.md",
-    "Calendário/15-01-2025.md",
-    "Calendário/16-01-2025.md",
     "English/Past.md",
     "English",
+    "Calendário/15-01-2025.md",
+    "Calendário/16-01-2025.md",
     "Planejamentos/Modelos/Planejamento Mensal.md",
     "Calendário/16/01/2025.md",
     "Calendário/16/01",
@@ -220,7 +218,10 @@
     "Planejamentos/Planejamento mensal.md",
     "Planejamentos/Planejamento diário",
     "pdfs/Introdução a refatoração.pdf",
+    "Faculdade/Técnicas de Programação em Plataforma Emergentes/Desenvolvimento Orientado a Testes (TDD).md",
     "Planejamentos",
+    "Faculdade/Estrutura de dados 2/Árvores.md",
+    "Faculdade/Estrutura de dados 2/Árvore rubro-negra.md",
     "pdfs/Desenvolvimento Orientado a Testes (TDD).pdf",
     "Excalidraw/Drawing 2025-01-13 15.51.49.excalidraw.md",
     "Imagens/Pasted image 20250109120011.png",
