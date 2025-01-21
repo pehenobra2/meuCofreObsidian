@@ -1,4 +1,5 @@
 {
   "format": "DD-MM-YYYY",
-  "folder": "Calendário"
+  "folder": "Calendário",
+  "template": "Teamplates/Notas diárias"
 }

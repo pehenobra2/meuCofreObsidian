@@ -27,3 +27,8 @@ Uma **Árvore Binária de Busca (ABB)** Rubro-Negra Esquerdista é uma estrutura
 
 - **Ajustes Pós-Inserção**:  
   Após a inserção, são realizadas operações na árvore para garantir que todas as cinco propriedades mencionadas sejam preservadas.  
+
+
+Consideramos $bh$ a altura negra da árvore. Há pelo menos $2^{bh}-1$ nós não-nulos na árvore.
+
+A altura negra $bh$ é pelo menos a metade da altura $h$ da árvore.

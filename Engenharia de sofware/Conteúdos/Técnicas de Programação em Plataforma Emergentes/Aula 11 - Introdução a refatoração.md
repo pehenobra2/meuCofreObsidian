@@ -259,7 +259,7 @@ Quando subclasses herdam métodos ou campos de suas classes-pai, mas não gostar
 ## Exercício de fixação
 
 ### Enunciado
-Melhorar o código do exercício de fixação do documento [[Desenvolvimento Orientado a Testes (TDD)#Exercício de Fixação]]. 
+Melhorar o código do exercício de fixação do documento [[Aula 10 - Desenvolvimento Orientado a Testes (TDD)#Exercício de Fixação]]. 
 
 ### Código melhorado
 
