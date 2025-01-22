@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de sofware/Conteúdos/Java/JPA.md",
-                "mode": "source",
+                "file": "English/Unit 3.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "JPA"
+              "title": "Unit 3"
             }
           }
         ]
@@ -180,7 +180,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,14 +199,19 @@
   },
   "active": "d3d8415bfab41d37",
   "lastOpenFiles": [
-    "Planejamentos/Planejamento diário/2. Terça.md",
+    "English/Past.md",
+    "English/Unit 3.md",
     "Planejamentos/Planejamento diário/1. Segunda.md",
-    "Engenharia de sofware/Conteúdos/Técnicas de Programação em Plataforma Emergentes/Aula 12 - Operações de refatoração.md",
     "Planejamentos/Planejamento diário/3. Quarta.md",
-    "Engenharia de sofware/Conteúdos/Técnicas de Programação em Plataforma Emergentes/Aula 11 - Introdução a refatoração.md",
-    "Engenharia de sofware/Conteúdos/Técnicas de Programação em Plataforma Emergentes/Aula 10 - Desenvolvimento Orientado a Testes (TDD).md",
-    "Engenharia de sofware/Conteúdos/Java/JPA.md",
+    "Planejamentos/Planejamento diário/2. Terça.md",
     "Engenharia de sofware/Conteúdos/Arquitetura de Software/Design Patterns.md",
+    "Engenharia de sofware/Conteúdos/Técnicas de Programação em Plataforma Emergentes/Aula 18 - Refatoração para padrões.md",
+    "Engenharia de sofware/Conteúdos/Técnicas de Programação em Plataforma Emergentes/Aula 11 - Introdução a refatoração.md",
+    "Engenharia de sofware/Conteúdos/Técnicas de Programação em Plataforma Emergentes/Aula 12 - Operações de refatoração.md",
+    "Calendário/20-01-2025.md",
+    "Calendário/22-01-2025.md",
+    "Engenharia de sofware/Conteúdos/Java/JPA.md",
+    "Engenharia de sofware/Conteúdos/Técnicas de Programação em Plataforma Emergentes/Aula 10 - Desenvolvimento Orientado a Testes (TDD).md",
     "Engenharia de sofware/Conteúdos/Banco de dados/Relacionamento entre entidades.md",
     "Engenharia de sofware/Conteúdos/Banco de dados/Atomicidade.md",
     "Engenharia de sofware/Conteúdos/Java/EntityManager.md",
@@ -223,17 +229,12 @@
     "pdfs/Introdução a refatoração.pdf",
     "pdfs/Árvores.pdf",
     "Calendário/25-01-2025.md",
-    "Calendário/20-01-2025.md",
-    "Calendário/14-02-2025.md",
     "Engenharia de sofware/Conteúdos",
     "Engenharia de sofware",
     "Engenharia de sofware/Conteúdos/Arquitetura de Software",
     "Engenharia de sofware/Conteúdos/Java",
-    "Engenharia de sofware/Eclipse/Atalhos.md",
     "Engenharia de sofware/Eclipse",
     "Obsidian",
-    "Calendário/15-01-2025.md",
-    "Planejamentos/Modelos/Planejamento diário.md",
     "Imagens/Pasted image 20250109120011.png",
     "Imagens/Pasted image 20250109114914.png",
     "Imagens/Pasted image 20250109143755.png",
