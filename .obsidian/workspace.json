@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "English/Unit 3.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -176,12 +176,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,10 +198,10 @@
   },
   "active": "d3d8415bfab41d37",
   "lastOpenFiles": [
-    "English/Past.md",
-    "English/Unit 3.md",
-    "Planejamentos/Planejamento diário/1. Segunda.md",
     "Planejamentos/Planejamento diário/3. Quarta.md",
+    "English/Unit 3.md",
+    "English/Past.md",
+    "Planejamentos/Planejamento diário/1. Segunda.md",
     "Planejamentos/Planejamento diário/2. Terça.md",
     "Engenharia de sofware/Conteúdos/Arquitetura de Software/Design Patterns.md",
     "Engenharia de sofware/Conteúdos/Técnicas de Programação em Plataforma Emergentes/Aula 18 - Refatoração para padrões.md",
