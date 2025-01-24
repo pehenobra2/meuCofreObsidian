@@ -45,6 +45,8 @@ typedef struct No {
 ```
 
 ### Funções Auxiliares
+
+Estas funções verificam a cor de um nó e ajudam a manter a estrutura balanceada.
 ```C
 int ehVerm(No *x){
 	if(x != Null){
@@ -63,7 +65,11 @@ int ehPreto(No *x){
 
 #### Rotações:
 
+As rotações são usadas para manter o balanceamento da árvore.
+
 ##### 1. Para Esquerda
+
+Esta operação move um nó para a esquerda, promovendo seu filho direito.
 ![[Pasted image 20250123105753.png]]
 ```C
 No* rot_esq(No* raiz){
@@ -77,6 +83,8 @@ No* rot_esq(No* raiz){
 ```
 
 ##### 2. Para Direita
+
+Esta operação move um nó para a direita, promovendo seu filho esquerdo.
 ![[Pasted image 20250123110447.png]]
 ```C
 No* rot_dir(No* raiz){
@@ -91,6 +99,7 @@ No* rot_dir(No* raiz){
 
 #### Subida de Cor
 
+A operação de subir cor redistribui as cores para manter o balanceamento.
 ![[Pasted image 20250123110606.png]]
 ```C
 void sobe_verm(No* raiz){
@@ -104,6 +113,7 @@ void sobe_verm(No* raiz){
 
 ## Inserção na Árvore
 
+A inserção segue as regras de uma árvore binária de busca, ajustando a árvore conforme necessário para preservar as propriedades da árvore rubro-negra esquerdista.
 ```C
 No *corrige(No *r){
 	if(ehPreto(r->esq) && ehVerm(r->dir)){
@@ -117,8 +127,10 @@ No *corrige(No *r){
 	}
 	return r;
 }
+```
 
-
+A função de inserção insere um novo nó e chama a função `corrige` para restaurar o balanceamento.
+```C
 No *insere(No *r, int x){
 	if(r != NULL){
 		if(x < r->chave) r->esq = insere(r->esq, x);
@@ -136,35 +148,33 @@ No *insere(No *r, int x){
 }
 ```
 
----
+### Casos de Inserção
 
-## Casos de Inserção
-
-### Caso 1: Inserindo no Filho Esquerdo
+#### Caso 1: Inserindo no Filho Esquerdo
 
 - Pai preto, filho direito preto
 
 ![[Pasted image 20250123113240.png]]
 
-### Caso 2: Inserindo no Filho Direito
+#### Caso 2: Inserindo no Filho Direito
 
 - Pai preto, filho esquerdo preto
 
 ![[Pasted image 20250123113355.png]]
 
-### Caso 3: Pai vermelho, inserindo no Filho Direito
+#### Caso 3: Pai vermelho, inserindo no Filho Direito
 
 ![[Pasted image 20250123113516.png]]
 
-### Caso 4: Pai preto, Inserindo no Filho Esquerdo
+#### Caso 4: Pai preto, Inserindo no Filho Esquerdo
 
 ![[Pasted image 20250123114302.png]]
 
-### Caso 5: Pai preto, Inserindo no Filho Direito
+#### Caso 5: Pai preto, Inserindo no Filho Direito
 
 ![[Pasted image 20250123114355.png]]
 
-### Corrigindo Problemas no Pai
+#### Corrigindo Problemas no Pai
 
 - Se o filho direito for vermelho, rotacionamos para esquerda
 ![[Pasted image 20250123114538.png]]
@@ -173,162 +183,119 @@ No *insere(No *r, int x){
 - Se o filho esquerdo e seu neto esquerdo forem vermelhos, rotacionamos para a direita
 ![[Pasted image 20250123114750.png]]
 
+---
 
+## Busca na Árvore
 
-
-
-
-- **Inserção Inicial**:  
-  Todo nó recém-inserido na árvore é, por padrão, **vermelho**.  
-
-- **Ajustes Pós-Inserção**:  
-  Após a inserção, são realizadas operações na árvore para garantir que todas as cinco propriedades mencionadas sejam preservadas.  
-
-
-Consideramos $bh$ a altura negra da árvore. Há pelo menos $2^{bh}-1$ nós não-nulos na árvore.
-
-A altura negra $bh$ é pelo menos a metade da altura $h$ da árvore.
-- Não existe nó vermelho com filho vermelho
-- O número de nós internos *n* é : $n >= 2^{bh} -1 >= 2^{h/2} -1$
-- Ou seja: $h <= 2 log(n+1) = O(log n)$
+A busca em uma Árvore Rubro-Negra Esquerdista segue a lógica de uma **árvore binária de busca**.
+```C
+No* busca(No *r, int x) {
+    if (r == NULL || r->chave == x) {
+        return r;
+    }
+    if (x < r->chave) {
+        return busca(r->esq, x);
+    } else {
+        return busca(r->dir, x);
+    }
+}
+```
 
 ---
-## Código
 
+## Remoção na Árvore
+
+A remoção segue as regras de uma árvore binária de busca, garantindo que a árvore continue balanceada.
+
+### Mover Vermelho para Esquerda
+
+Antes de remover um nó, garantimos que o **filho esquerdo** seja vermelho. Isso simplifica a remoção.
 ```C
-typedef enum Cor {VERM, PRETO};
-
-typedef struct No{
-	int chave;
-	enum Cor cor;
-	struct No *esq, *dir;
-} No;
-
-int ehVerm(No *x){
-	if(x != Null){
-		return x->cor == VERM;
-	}
-	return 0;
+No* move_verm_esq(No* r) {
+    sobe_verm(r);
+    if (ehVerm(r->dir->esq)) {
+        r->dir = rot_dir(r->dir);
+        r = rot_esq(r);
+        sobe_verm(r);
+    }
+    return r;
 }
+```
 
-int ehPreto(No *x){
-	if(x != Null) return x->cor == PRETO;
-	return 1;
+### Mover vermelho para Direita
+
+Se estamos tentando remover um nó do lado **direito**, precisamos garantir que há um nó vermelho no caminho.
+```C
+No* move_verm_dir(No* r) {
+    sobe_verm(r);
+    if (ehVerm(r->esq->esq)) {
+        r = rot_dir(r);
+    }
+    return r;
+}
+```
+
+### Remoção Mínima
+
+Para remover um nó, podemos precisar encontrar o menor elemento (sucessor). Esta função remove o menor nó de uma subárvore.
+```C
+No* remove_min(No* r) {
+    if (r->esq == NULL) {
+        free(r);
+        return NULL;
+    }
+    if (ehPreto(r->esq) && ehPreto(r->esq->esq)) {
+        r = move_verm_esq(r);
+    }
+    r->esq = remove_min(r->esq);
+    return corrige(r);
+}
+```
+
+### Função Principal de Remoção
+
+Essa é a função principal que remove um nó da árvore.
+```C
+No* remove_no(No* r, int x) {
+    if (x < r->chave) {
+        if (ehPreto(r->esq) && ehPreto(r->esq->esq)) {
+            r = move_verm_esq(r);
+        }
+        r->esq = remove_no(r->esq, x);
+    } else {
+        if (ehVerm(r->esq)) {
+            r = rot_dir(r);
+        }
+        if (x == r->chave && r->dir == NULL) {
+            free(r);
+            return NULL;
+        }
+        if (ehPreto(r->dir) && ehPreto(r->dir->esq)) {
+            r = move_verm_dir(r);
+        }
+        if (x == r->chave) {
+            No* min = r->dir;
+            while (min->esq != NULL) {
+                min = min->esq;
+            }
+            r->chave = min->chave;
+            r->dir = remove_min(r->dir);
+        } else {
+            r->dir = remove_no(r->dir, x);
+        }
+    }
+    return corrige(r);
 }
 ```
 
 
-## Rotações para direita e para esquerda
+---
 
-### 1. Para esquerda
+## Conclusão
 
+A **Árvore Rubro-Negra Esquerdista** é uma variação da árvore rubro-negra tradicional, oferecendo:
 
+- **Busca, inserção e Remoção** eficientes em tempo $O(log$ $n)$.
+- **Menos rotações**, simplificando a manutenção do balanceamento.
 
-```C
-No* rot_esq(No* raiz){
-	No* x = raiz->dir;
-	raiz->dir = x->esq;
-	x->esq = raiz;
-	x->cor = raiz->cor;
-	raiz->cor = VERM;
-	return x;
-}
-```
-
-
-### 2. Para direita
-
-
-
-```C
-No* rot_dir(No* raiz){
-	No* x = raiz->esq;
-	raiz->esq = x->dir;
-	x->dir = raiz;
-	x->cor = raiz->cor;
-	raiz->cor = VERM;
-	return x;
-}
-```
-
-## Subindo cor
-
-
-
-
-
-## Inserção
-
-Inserirmos como em uma ABB, mas precisamos manter as propriedades da árvore rubro-negra esquerdista.
-
-
-
-### Caso 1
-
-- Nó é preto
-	- não sabemos a cor do seu pai
-	- nem se ele é o filho esquerdo ou direito
-- Filho direito é preto 
-- Inserimos no filho esquerdo
-
-
-### Caso 2
-
-- Nó é preto
-	- não sabemos a cor do seu pai
-	- nem se ele é o filho esquerdo ou direito
-- Filho esquerdo é preto
-- Inserimos no filho direito
-
-
-### Caso 3
-
-- Nó é preto
-	- não sabemos a cor do seu pai
-	- nem se ele é o filho esquerdo ou direito
-- Filho esquerdo é vermelho
-- Inserimos o no filho direito
-
-
-### Caso 4
-
-- Nó é vermelho
-	- seu pai é preto
-	- é o filho esquerdo
-- Inserimos no filho esquerdo
-
-
-### Caso 5
-
-- Nó é vermelho
-	- seu pai é preto
-	- é o filho esquerdo
-- Inserimos no filho direito
-
-
-## Resolvendo problemas no pai
-
-Quais problemas sobraram para o pai resolver?
-- Talvez o filho direito seja vermelho (não é esquerdista)
-- Só poder ter acontecido por que a cor vermelha subiu
-
-Se o filho esquerdo for preto, basta rotacionar para a esquerda
-
-
-Se o filho esquerdo for vermelho, basta subir a cor
-
-
-Quais problemas sobraram para o pai resolver?
-- Talvez o filho esquerdo seja vermelho
-- E o neto mais a esquerda seja vermelho
-
-
-## Conclusão 
-
-As árvores rubro negras esquerdistas suportam as seguintes operações:
-- busca
-- inserção
-- remoção
-todas em tempo $O(log$ $n)$ 
-
-É uma variante da árvore rubro-negra com menos operações para corrigir a árvore na inserção e na remoção
+Este modelo é amplamente utilizado em estruturas de dados dinâmicas como tabelas de símbolos e banco de dados.
