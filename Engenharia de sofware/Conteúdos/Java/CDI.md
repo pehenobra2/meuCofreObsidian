@@ -10,7 +10,7 @@
 
 ## 2. Diferença entre CDI e @ManagedBean
 
-Antes do CDI, o JSF usava `@ManagedBean`, mas essa abordagem tem limitações, como falta de suporte avançado a injeção de dependência e ciclos de vida mais complexos.
+Antes do CDI, o [[JSF]] usava `@ManagedBean`, mas essa abordagem tem limitações, como falta de suporte avançado a injeção de dependência e ciclos de vida mais complexos.
 
 - **Comparação**
 

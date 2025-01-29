@@ -44,7 +44,7 @@ public class Usuario {
 - `@Id` indica o campo que será usado como chave primária.
 - `@GeneratedValue` controla como o valor da chave primária será gerado.
 - `@Column` mapeia um atributo de classe para uma coluna no banco.
-- `@OneToMany`, `@ManyToOne`, `@OneToOne`, `@ManyToMany` definem [[Relacionamentos entre entidades|relacionamentos entre entidades]]
+- `@OneToMany`, `@ManyToOne`, `@OneToOne`, `@ManyToMany` definem [[Relacionamento entre entidades|relacionamentos entre entidades]]
 - A classe `Usuario` é uma entidade, e cada instância dessa classe é uma linha na tabela `usuario` do banco de dados.
 - `@GeneratedValue(strategy = GenerationType.IDENTITY)` define que o valor da chave primária `id` será gerado automaticamente pelo banco (geralmente como um autoincremento).
 
@@ -82,7 +82,7 @@ List<Usuario> usuarios = em.createQuery("SELECT u FROM Usuario u", Usuario.class
 
 ### 3.5 Transações
 
-O JPA exige que as operações de persistência sejam realizadas dentro de uma **transação**. Transações são necessárias para garantir a [[Atomicidade|atomicidade]], ou seja, se ocorrer um erro, a transação pode ser revertida e os dados do banco ficam consistentes.
+O JPA exige que as operações de persistência sejam realizadas dentro de uma **transação**. Transações são necessárias para garantir a [[ACID#1. O que é❓#1. Atomicidade|atomicidade]], ou seja, se ocorrer um erro, a transação pode ser revertida e os dados do banco ficam consistentes.
 
 - Principais métodos para gerenciar transações:
 	- `begin()` ▶️ Inicia a transação.
