@@ -11,14 +11,14 @@
             "id": "4dd997d435346717",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "Planejamentos/Planejamento diário/1. Segunda.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "1. Segunda"
+              "icon": "diff",
+              "title": "Diff: workspace.json"
             }
           }
         ]
@@ -198,11 +198,11 @@
   },
   "active": "4dd997d435346717",
   "lastOpenFiles": [
-    "Planejamentos/Planejamento diário/2. Terça.md",
     "Planejamentos/Planejamento diário/1. Segunda.md",
+    "Planejamentos/Planejamento diário/2. Terça.md",
+    "Planejamentos/Planejamento diário/3. Quarta.md",
     "Planejamentos/Planejamento diário/5. Sexta.md",
     "Planejamentos/Planejamento diário/4. Quinta.md",
-    "Planejamentos/Planejamento diário/3. Quarta.md",
     "English/Unit 3.md",
     "Engenharia de sofware/Conteúdos/Estrutura de dados 2/Árvore rubro-negra esquerdista.md",
     "Imagens/Pasted image 20250123114750.png",
