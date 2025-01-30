@@ -6,9 +6,10 @@ JavaServer Faces (JSF) é um framework Java para construção de interfaces web 
 
 O JSF segue o padrão **MVC (Model - View - Controller)**, onde:
 - **View**: Define a interface gráfica usando arquivos ``.xhtml``.
-- **Controller**: São os Managed Beans **(@ManagedBean ou [[CDI]] @Named)** que processam ações do usuário.
-- **Model**: Representa os dados da aplicação, geralmente mapeados com [[JPA]] **(@Entity)**.
+- **Controller**: São os Managed Beans **(`@ManagedBean` ou [[CDI]] `@Named`)** que processam ações do usuário.
+- **Model**: Representa os dados da aplicação, geralmente mapeados com [[JPA]] (`@Entity`).
 
+### 1.1. Ciclo de vida de uma Requisição JSF
 O JSF gerencia o ciclo de vida da interface de usuário, incluindo:
 1. **Recebimento da Requisição**: O usuário acessa a aplicação.
 2. **Construção da Árvore de componentes**: O JSF processa os componentes da interface.
