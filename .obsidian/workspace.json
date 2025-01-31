@@ -154,13 +154,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de sofware/Conteúdos/Java/JPA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de JPA"
+              "title": "Sumário"
             }
           },
           {
@@ -194,7 +193,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
