@@ -83,16 +83,16 @@ public class FabricaB extends Fabrica {
 }
 ```
 
-## 2.3 Quando usar?
+### 2.3 Quando usar?
 - Quando a criação de objetos é complexa ou envolve várias etapas
 - Quando o sistema precisa ser flexível para adicionar novos tipos de objetos sem alterar o código existente
 
-## 2.4 Vantagens 🔺
+### 2.4 Vantagens 🔺
 
 - Desacoplamento entre criação e uso de objetos
 - Facilidade para adicionar novos tipos de objetos
 
-## 2.5 Desvantagens 🔻
+### 2.5 Desvantagens 🔻
 
 - Pode aumentar a complexidade do código
 - Mais classes podem ser necessárias para implementar fábricas diferentes
