@@ -6,18 +6,36 @@ JavaServer Faces (JSF) é um framework Java para construção de interfaces web 
 
 O JSF segue o padrão **MVC (Model - View - Controller)**, onde:
 - **View**: Define a interface gráfica usando arquivos ``.xhtml``.
-- **Controller**: São os Managed Beans **(@ManagedBean ou [[CDI]] @Named)** que processam ações do usuário.
-- **Model**: Representa os dados da aplicação, geralmente mapeados com [[JPA]] **(@Entity)**.
+- **Controller**: São os Managed Beans **(`@ManagedBean` ou [[CDI]] `@Named`)** que processam ações do usuário.
+- **Model**: Representa os dados da aplicação, geralmente mapeados com [[JPA]] (`@Entity`).
 
-O JSF gerencia o ciclo de vida da interface de usuário, incluindo:
-1. **Recebimento da Requisição**: O usuário acessa a aplicação.
-2. **Construção da Árvore de componentes**: O JSF processa os componentes da interface.
-3. **Processamento de Eventos**: Interpreta inputs do usuário e interage com o backend.
-4. **Renderização da Resposta**: Retorna a página para o usuário
+### 1.1. Ciclo de vida de uma Requisição JSF
+
+O JSF gerencia automaticamente o ciclo de vida da requisições HTTP, garantindo que os componentes da interface sejam processados corretamente. Esse ciclo é composto pelas seguintes fases:
+1. **Recebimento da Requisição**: O usuário acessa a página JSF.
+2. **Restaurar View**: O framework cria ou restaura a árvore de componentes da interface do usuário.
+3. **Aplicar Valores da Requisição**: Os dados do formulário enviado pelo cliente são carregados nos componentes.
+4. **Processar Validações**: O JSF executa conversão de tipos, validaçãode dados e aplica regras de negócio.
+5. **Atualizar Dados do Modelo**: Com CDI, os valores dos componentes são injetados diretamente nos beans anotados com `@Named` e escopo apropriado (`@RequestScoped`, `@ViewScoped`, etc). Isso garante separação de responsabilidades e reutilização de componentes.
+6. **Invocar Aplicações**: O JSF processa a lógica do negócio chamando serviços CDI, que são injetados automaticamente usando `@Inject`. Os beans de serviço são definidos com escopos como `ApplicationScoped` ou `@Dependent`, garantindo modularidade e reutilização.
+7. **Renderizar Resposta**: O framework gera o HTML correspondente à interface e o envia ao navegador.
+8. **Resposta**: O cliente recebe e exibe a página renderizada.
 
 ---
 
-## 2. Estrutura de um Projeto JSF 📂
+## 2. Escopos de CDI no JSF 
+
+No contexto do JSF, os beans podem ser definidos com diferentes escopos, dependendo da necessidade da aplicação:
+
+- **@ResquestScoped**: O bean vive durante uma única requisição HTTP.
+- **@ViewScope**: Mantém o estado enquanto o usuário estiver na mesma página.
+- **@SessionScoped**: Dura enquanto a sessão do usuário estiver ativa.
+- **@ApplicationScoped**: Compartilhando por toda a aplicação.
+- **@Dependent**: Criado e destruído junto como bean que injeta.
+
+---
+
+## 3. Estrutura de um Projeto JSF 📂
 
 Um projeto JSF geralmente segue esta estrutura:
 
@@ -42,9 +60,9 @@ meu-projeto/
 
 ---
 
-## 3. Exemplo de código
+## 4. Exemplo de código 🖥️
 
-### 3.1 Página XHTML
+### 4.1. Página XHTML
 
 O arquivo `index.xhtml` define a interface da aplicação:
 ```xml
@@ -75,7 +93,7 @@ O arquivo `index.xhtml` define a interface da aplicação:
 - `h:inputText`: Campo de entrada ligado ao **Managed Bean**.
 - `h:commandButton`: Botão que chama o método `login()` do `UsuárioBean`.
 
-### 3.2 Managed Bean (Controller) com [[CDI]]
+### 4.2. Bean Gerenciado com [[CDI]] (Controller)
 
 Criamos o `UsuarioBean.java` para processar a lógica de login:
 ```java
@@ -102,8 +120,11 @@ public class UsuarioBean {
 
     public void login() {
         if (authService.autenticar(nome, senha)) {
-            try {
-                FacesContext.getCurrentInstance().getExternalContext().redirect("home.xhtml");
+            try {    
+	            FacesContext
+		            .getCurrentInstance()
+		            .getExternalContext()
+		            .redirect("home.xhtml");
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -116,7 +137,7 @@ public class UsuarioBean {
 - `@RequestScoped`: Define o escopo do bean.
 - `@Inject`: Injeção de dependência do **AutenticacaoService**.
 
-### 3.3 Serviço de Autenticação com [[CDI]]
+### 4.3. Serviço de Autenticação com [[CDI]]
 
 ```java
 import jakarta.enterprise.context.ApplicationScoped;
@@ -129,7 +150,7 @@ public class AutenticacaoService {
 }
 ```
 
-### 3.4 Arquivo de configuração (`faces-config.xml`)
+### 4.4. Arquivo de configuração (`faces-config.xml`)
 
 Embora opcional no JSF 2.X, este arquivo pode configurar regras de navegação:
 ```xml

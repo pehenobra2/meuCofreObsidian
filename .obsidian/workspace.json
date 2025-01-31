@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
-                "mode": "source",
+                "file": "Engenharia de sofware/Git/Comandos.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "conflict-files-obsidian-git"
+              "title": "Comandos"
             }
           }
         ],
@@ -227,8 +227,9 @@
   },
   "active": "1b1592584e4ed46b",
   "lastOpenFiles": [
-    "Engenharia de sofware/Conteúdos/Estrutura de dados 2/Max-Heap.md",
     "conflict-files-obsidian-git.md",
+    "Engenharia de sofware/Conteúdos/Banco de dados/SQL.md",
+    "Engenharia de sofware/Conteúdos/Estrutura de dados 2/Max-Heap.md",
     "Planejamentos/Planejamento diário/3. Quarta.md",
     "Planejamentos/Planejamento diário/2. Terça.md",
     "Planejamentos/Planejamento diário/1. Segunda.md",
@@ -264,7 +265,6 @@
     "Planejamentos/Planejamento diário/5. Sexta.md",
     "Planejamentos/Planejamento diário/4. Quinta.md",
     "English/Unit 3.md",
-    "Engenharia de sofware/Conteúdos/Estrutura de dados 2/Árvore rubro-negra esquerdista.md",
     "Teamplates",
     "Planejamentos/Planejamento diário",
     "Obsidian",
