@@ -6,14 +6,14 @@ Os bancos de dados são essenciais para armazenar, organizar e gerenciar informa
 ## 1. Banco de Dados Relacional
 
 - Baseado no modelo relacional, onde os dados são armazenados em tabelas com linhas e colunas.
-- Usa SQL para manipulação de dados.
+- Usa [[SQL]] para manipulação de dados.
 - Garante integridade e consistência através das regras [[ACID]].
 
 ### 1.1. Exemplos
 
 - MySQL
 - PostgreSQL
-- Oracle Database
+- [[Oracle]] Database
 - Microsoft SQL Server
 
 ### 1.2. Quando usar?
@@ -27,7 +27,7 @@ Os bancos de dados são essenciais para armazenar, organizar e gerenciar informa
 ## 2. Banco de Dados NoSQL (Não relacional)
 
 - Projetado para escalabilidade e flexibilidade, ideal para grandes volumes de dados.
-- Não utiliza SQL tradicional e pode armazenar dados de diferentes formas.
+- Não utiliza [[SQL]] tradicional e pode armazenar dados de diferentes formas.
 
 ### 2.1. Principais categorias de NoSQL:
 
