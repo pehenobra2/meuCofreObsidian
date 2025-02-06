@@ -1,4 +1,3 @@
-
 ## 1. O que é JPA? 
 O **JPA** (Java Persistence API) é uma **especificação** que define como gerenciar dados relacionais em uma JAVA, utilizando o conceito de entidades que são mapeadas para tabelas em um banco de dados. Ele permite que você trabalhe com objetos **JAVA** em vez de escrever [[SQL]] diretamente, usando **ORM (Object-Relational Mapping)**.
 
