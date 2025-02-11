@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de sofware/Conteúdos/Requisitos/Caso de uso.md",
+                "file": "Planejamentos/Planejamento diário/5. Sexta.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Caso de uso"
+              "title": "5. Sexta"
             }
           }
         ],
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de sofware/Conteúdos/Requisitos/Caso de uso.md",
+                "file": "Planejamentos/Planejamento diário/5. Sexta.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Caso de uso"
+              "title": "Sumário de 5. Sexta"
             }
           },
           {
@@ -187,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,8 +206,12 @@
   },
   "active": "ad86c7c93e7471a1",
   "lastOpenFiles": [
-    "Engenharia de sofware/Conteúdos/Requisitos/História de usuário.md",
+    "Planejamentos/Planejamento diário/4. Quinta.md",
+    "Planejamentos/Planejamento diário/3. Quarta.md",
+    "Planejamentos/Planejamento diário/2. Terça.md",
+    "Planejamentos/Planejamento diário/1. Segunda.md",
     "Engenharia de sofware/Conteúdos/Requisitos/Caso de uso.md",
+    "Engenharia de sofware/Conteúdos/Requisitos/História de usuário.md",
     "Engenharia de sofware/Conteúdos/Requisitos/Scrum.md",
     "metodologia ágil.md",
     "Engenharia de sofware/Conteúdos/Requisitos/Metodologias ágeis.md",
@@ -224,9 +229,6 @@
     "Imagens/Pasted image 20250206100205.png",
     "Excalidraw/desenhoExemploABBRedBlackEsquerdista.excalidraw.md",
     "Excalidraw/Drawing 2025-02-06 09.09.14.excalidraw.md",
-    "Planejamentos/Planejamento diário/4. Quinta.md",
-    "Planejamentos/Planejamento diário/3. Quarta.md",
-    "Planejamentos/Planejamento diário/2. Terça.md",
     "Engenharia de sofware/Conteúdos/Java/Bean.md",
     "Engenharia de sofware/Conteúdos/Java/CDI.md",
     "Engenharia de sofware/Conteúdos/Java/EJB.md",
@@ -235,7 +237,6 @@
     "Engenharia de sofware/Conteúdos/Java/Java EE.md",
     "Engenharia de sofware/Conteúdos/Java/JBoss EAP 7.md",
     "Engenharia de sofware/Conteúdos/Java/JDBC.md",
-    "Engenharia de sofware/Conteúdos/Java/JPA.md",
     "Imagens/Pasted image 20250204125632.png",
     "Imagens/Pasted image 20250204125407.png",
     "Imagens/Pasted Image 20250204112936_491.png",
