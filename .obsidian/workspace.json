@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Planejamentos/Planejamento diário/5. Sexta.md",
+                "file": "Planejamentos/Planejamento diário/1. Segunda.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Sexta"
+              "title": "1. Segunda"
             }
           }
         ],
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planejamentos/Planejamento diário/5. Sexta.md",
+                "file": "Planejamentos/Planejamento diário/2. Terça.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 5. Sexta"
+              "title": "Sumário de 2. Terça"
             }
           },
           {
@@ -204,12 +204,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ad86c7c93e7471a1",
+  "active": "a902fd9bc006b75a",
   "lastOpenFiles": [
-    "Planejamentos/Planejamento diário/4. Quinta.md",
     "Planejamentos/Planejamento diário/3. Quarta.md",
     "Planejamentos/Planejamento diário/2. Terça.md",
     "Planejamentos/Planejamento diário/1. Segunda.md",
+    "Planejamentos/Planejamento diário/5. Sexta.md",
+    "Planejamentos/Planejamento diário/4. Quinta.md",
     "Engenharia de sofware/Conteúdos/Requisitos/Caso de uso.md",
     "Engenharia de sofware/Conteúdos/Requisitos/História de usuário.md",
     "Engenharia de sofware/Conteúdos/Requisitos/Scrum.md",
@@ -236,7 +237,6 @@
     "Engenharia de sofware/Conteúdos/Java/EntityManager.md",
     "Engenharia de sofware/Conteúdos/Java/Java EE.md",
     "Engenharia de sofware/Conteúdos/Java/JBoss EAP 7.md",
-    "Engenharia de sofware/Conteúdos/Java/JDBC.md",
     "Imagens/Pasted image 20250204125632.png",
     "Imagens/Pasted image 20250204125407.png",
     "Imagens/Pasted Image 20250204112936_491.png",
