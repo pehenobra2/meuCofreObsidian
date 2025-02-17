@@ -128,3 +128,81 @@ funcion App(){
 export default App;
 ```
 Após salvar, a aplicação será atualizada automaticamente no navegador.
+
+---
+
+## 7. Funções JS 🚀
+
+No react, as funções JS desempenham um papel fundamental na criação de componentes, manipulação de eventos e lógica da aplicação. Aqui estão alguns conceitos essenciais sobre funções em JS e como elas são utilizadas React:
+
+### 7.1. Declaração de Funções
+
+Existem várias formas de declarar funções em JS:
+
+```js
+// Função tradicional
+function saudacao(nome) {
+  return `Olá, ${nome}!`;
+}
+
+// Função anônima atribuída a uma variável
+const saudacao2 = function (nome) {
+  return `Olá, ${nome}!`;
+};
+
+// Arrow function (mais usada no React)
+const saudacao3 = (nome) => `Olá, ${nome}!`;
+```
+
+### 7.2. Funções como Props
+
+No React, podemos passar funções como propriedades para componentes filhos, permitindo a comunicação entre eles.
+
+```jsx
+const Botao = ({ aoClicar }) => <button onClick={aoClicar}>Clique aqui</button>;
+
+const App = () => {
+  const mostrarAlerta = () => alert("Botão clicado!");
+
+  return <Botao aoClicar={mostrarAlerta} />;
+};
+```
+
+### 7.3. Manipulação de Eventos
+
+Eventos em React são tratados com funções, geralmente utilizando arrow functions para manter o contexto do `this`.
+
+```jsx
+const App = () => {
+  const lidarComClique = () => {
+    console.log("Botão foi clicado!");
+  };
+
+  return <button onClick={lidarComClique}>Clique aqui</button>;
+};
+```
+
+### 7.4. Funções de Callback
+
+No React, callbacks são usados em diversos momentos, como ao mapear listas ou lidar com eventos assíncronos.
+
+```js
+const numeros = [1, 2, 3, 4];
+const dobrados = numeros.map((num) => num * 2); // [2, 4, 6, 8]
+```
+
+### 7.5. Funções Assíncronas
+
+Com `async/await`, podemos lidar com operações assíncronas, como chamadas a APIs.
+
+```jsx
+const buscarDados = async () => {
+  const resposta = await fetch("https://jsonplaceholder.typicode.com/todos/1");
+  const dados = await resposta.json();
+  console.log(dados);
+};
+
+buscarDados();
+```
+
+---
