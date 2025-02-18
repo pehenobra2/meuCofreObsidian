@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Planejamentos/Planejamento diário/1. Segunda.md",
+                "file": "Engenharia de sofware/React/React.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1. Segunda"
+              "title": "React"
             }
           }
         ],
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planejamentos/Planejamento diário/1. Segunda.md",
+                "file": "Engenharia de sofware/React/React.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 1. Segunda"
+              "title": "Sumário de React"
             }
           },
           {
@@ -205,13 +205,13 @@
   },
   "active": "ad86c7c93e7471a1",
   "lastOpenFiles": [
+    "Planejamentos/Planejamento diário/1. Segunda.md",
+    "Planejamentos/Planejamento diário/2. Terça.md",
     "Engenharia de sofware/React/React.md",
     "Engenharia de sofware/React/CSS.md",
     "Planejamentos/Planejamento diário/4. Quinta.md",
     "Engenharia de sofware/CSS.md",
     "Planejamentos/Planejamento diário/3. Quarta.md",
-    "Planejamentos/Planejamento diário/2. Terça.md",
-    "Planejamentos/Planejamento diário/1. Segunda.md",
     "Planejamentos/Planejamento diário/5. Sexta.md",
     "Engenharia de sofware/Conteúdos/Requisitos/Caso de uso.md",
     "Engenharia de sofware/Conteúdos/Requisitos/História de usuário.md",

@@ -182,13 +182,42 @@ const App = () => {
 };
 ```
 
-### 7.4. Funções de Callback
+### 7.4. Iteração e Transformação de Arrays
 
-No React, callbacks são usados em diversos momentos, como ao mapear listas ou lidar com eventos assíncronos.
+No JavaScript, funções de callback são amplamente utilizadas para manipular arrays de forma eficiente. Algumas das funções mais comuns são:
 
+- `.map()`: Cria um novo array transformando cada elemento do original.
 ```js
 const numeros = [1, 2, 3, 4];
-const dobrados = numeros.map((num) => num * 2); // [2, 4, 6, 8]
+const dobrados = numeros.map(num => num * 2);
+console.log(dobrados); // [2, 4, 6, 8]
+```
+
+- `.forEach()`: Executa uma função para cada elemento do array sem retornar um novo array.
+```js
+const nomes = ["Ana", "João", "Carlos"];
+nomes.forEach(nome => console.log(nome));
+```
+
+- `.filter()`: Retorna um novo array contendo apenas os elementos que atendem a uma condição específica.
+```js
+const idades = [15, 30, 18, 22, 10];
+const adultos = idades.filter(idade => idade >= 18);
+console.log(adultos); // [30, 18, 22]
+```
+
+- `.reduce()`: Acumula os valores de um array em um único resultado.
+```js
+const numeros = [1, 2, 3, 4];
+const soma = numeros.reduce((acumulador, atual) => acumulador + atual, 0);
+console.log(soma); // 10
+```
+
+- `.find()`: Retorna o primeiro elemento do array que satisfaz uma condição.
+```js
+const produtos = [{nome: "Notebook", preco: 2000}, {nome: "Mouse", preco: 50}];
+const caro = produtos.find(produto => produto.preco > 1000);
+console.log(caro); // { nome: 'Notebook', preco: 2000 }
 ```
 
 ### 7.5. Funções Assíncronas
@@ -205,4 +234,216 @@ const buscarDados = async () => {
 buscarDados();
 ```
 
+### 7.6. Outras Funções úteis em arrays
+
+Além do `.map()`, `.forEach()`, `.filter()`, `.reduce()`e  `.find()`, temos:
+
+- `.findIndex()`: Retorna o índice do primeiro elemento que satisfaz a condição.
+```js
+const frutas = ["maçã", "banana", "uva"];
+const indice = frutas.findIndex(fruta => fruta === "banana");
+console.log(indice); // 1
+```
+
+- `.some()`: Retorna `true` se **pelo menos um** elemento satisfizer a condição.
+```js
+const notas = [3, 5, 7, 9];
+const temNotaBoa = notas.some(nota => nota >= 7);
+console.log(temNotaBoa); // true
+```
+
+- `.every()`: Retorna `true` se **todos** os elementos passarem na condição.
+```js
+const alturas = [1.80, 1.75, 1.90];
+const todosAltos = alturas.every(altura => altura > 1.70);
+console.log(todosAltos); // true
+```
+
+- `.sort()`: Ordena os elementos do array.
+```js
+const numeros = [10, 2, 8, 30];
+numeros.sort((a, b) => a - b);
+console.log(numeros); // [2, 8, 10, 30]
+```
+
+- `.reverse()`: Inverte a ordem dos elementos.
+```js
+const letras = ["a", "b", "c"];
+letras.reverse();
+console.log(letras); // ['c', 'b', 'a']
+```
+
 ---
+
+## 8. Styled Components
+
+### 8.1. O que é
+
+Styled Components é uma biblioteca para estilização de componentes em aplicações React e React Native, baseada em JavaScript e CSS-in-JS. Com ela, os estilos são escritos dentro dos próprios componentes, garantindo encapsulamento e facilitando a reutilização. Além disso, Styled Components aproveita o poder das Tagged Template Literals do JavaScript para criar estilos dinâmicos de forma elegante e eficiente.
+
+### 8.2. Como baixar
+
+Para utilizar Styled Components, primeiro é necessário instalá-lo no projeto. Utilize um dos seguintes comandos, dependendo do seu gerenciador de pacotes:
+
+- **Com npm:**
+```bash
+npm install styled-components
+```
+
+- Se estiver utilizando TypeScript, recomenda-se instalar também os tipos do Styled Components:
+```bash
+npm install --save-dev @types/styled-components
+```
+### 8.3. Como utilizar
+
+Após a instalação, Styled Components pode ser utilizado para criar componentes estilizados. Veja um exemplo prático:
+```js
+import styled from 'styled-components';
+
+const Botao = styled.button`
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+
+  &:hover {
+    background-color: #2980b9;
+  }
+`;
+
+function App() {
+  return <Botao>Clique aqui</Botao>;
+}
+
+export default App;
+```
+
+### 8.4. Vantagens do Style Components
+
+- **Escopo local**: os estilos são aplicados apenas ao componente onde foram definidos, evitando conflitos globais.
+- **Facilidade de manutenção**: cada componente carrega seus próprios estilos, tornando o código mais organizado.
+- **Suporte a temas**: Styled Components permite a criação de temas reutilizáveis, facilitando a personalização da aplicação.
+- **Estilização dinâmica**: É possível passar props para modificar os estilos dinamicamente com base em propriedades do componente.
+
+Exemplo de estilização condicional:
+```js
+const BotaoDinamico = styled.button`
+  background-color: ${props => (props.primario ? "#2ecc71" : "#e74c3c")};
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+`;
+
+function App() {
+  return (
+    <>
+      <BotaoDinamico primario>Confirmar</BotaoDinamico>
+      <BotaoDinamico>Cancelar</BotaoDinamico>
+    </>
+  );
+}
+```
+Neste exemplo, o botão recebe cores diferentes dependendo da prop `primario`.
+
+---
+
+## 9. `useState` 
+
+O `useState` é um hook do React que permite adicionar estados a componentes funcionais. Antes do React Hooks, o estado só podia ser usado em componentes de classe, mas com `useState`, podemos gerenciar estados diretamente dentro de componentes funcionais.
+
+### 9.1. O que é o estado no React
+
+No React, o **estado** é uma variável que armazena informações dinâmicas e pode mudar ao longo do tempo, influenciando a renderização do componente. Sempre que um estado é atualizado, o React re-renderiza o componente para refletir as mudanças.
+
+Por exemplo, um botão de "curtir" pode armazenar no estado o número de cliques.
+
+### 9.2. Quando usar `useState`
+
+Use `useState` para armazenar valores mutáveis dentro de um componente, como:
+- Dados de formulários (nome, e-mail)
+- Contadores
+- Estados de exibição (exemplo: abrir/fechar modal)
+- Listas e coleções dinâmicas
+
+Se precisar de compartilhar estados entre componentes, use **Context API** ou `useReducer`.
+
+### 9.3. Como usar o `useState`
+
+O `useState` retorna um array com dois elementos:
+
+1. O valor atual do estado (exemplo: `contador`)
+2. Uma função para atualizar o estado (exemplo: `setContador`)
+
+**Exemplo básico**:
+```js
+import { useState } from "react";
+
+function Contador() {
+  const [contador, setContador] = useState(0); // Estado inicial = 0
+
+  return (
+    <div>
+      <p>O contador está em: {contador}</p>
+      <button onClick={() => setContador(contador + 1)}>Incrementar</button>
+    </div>
+  );
+}
+
+export default Contador;
+```
+- O estado `contador` começa com 0.
+- `setContador` é chamada quando o botão é clicado, atualizando o estado e forçando uma nova renderização.
+
+### 9.4. Atualização de estado
+
+⚠️ Nunca atualize o estado diretamente:
+Errado ❌:
+```js
+contador = contador + 1; // Isso não funciona!
+```
+
+Certo ✅:
+```js
+setContador(contador + 1);
+```
+
+Se o novo estado depender do estado anterior, use uma função de atualização:
+```js
+setContador(prevContador => prevContador + 1);
+```
+
+
+### 9.5. Estado com strings, objetos e arrays
+
+O `useState` pode armazenar mais do que números.
+
+- String:
+```js
+const [nome, setNome] = useState("João");
+
+setNome("Maria"); // Atualiza o estado para "Maria"
+```
+
+- Objeto:
+```js
+const [usuario, setUsuario] = useState({ nome: "Ana", idade: 25 });
+
+setUsuario({ ...usuario, idade: 26 }); // Atualiza apenas a idade
+```
+
+- Array:
+```js
+const [itens, setItens] = useState(["Maçã", "Banana"]);
+
+setItens([...itens, "Laranja"]); // Adiciona um novo item ao array
+```
+
+---
+
