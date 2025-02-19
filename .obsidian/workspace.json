@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de sofware/React/React.md",
+                "file": "Engenharia de sofware/Node/Node.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React"
+              "title": "Node"
             }
           }
         ],
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de sofware/React/React.md",
+                "file": "Engenharia de sofware/Node/Node.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de React"
+              "title": "Sumário de Node"
             }
           },
           {
@@ -205,14 +205,18 @@
   },
   "active": "ad86c7c93e7471a1",
   "lastOpenFiles": [
-    "Planejamentos/Planejamento diário/1. Segunda.md",
-    "Planejamentos/Planejamento diário/2. Terça.md",
-    "Engenharia de sofware/React/React.md",
-    "Engenharia de sofware/React/CSS.md",
-    "Planejamentos/Planejamento diário/4. Quinta.md",
-    "Engenharia de sofware/CSS.md",
-    "Planejamentos/Planejamento diário/3. Quarta.md",
     "Planejamentos/Planejamento diário/5. Sexta.md",
+    "Planejamentos/Planejamento diário/4. Quinta.md",
+    "Planejamentos/Planejamento diário/3. Quarta.md",
+    "Planejamentos/Planejamento diário/2. Terça.md",
+    "Engenharia de sofware/Node/Node.md",
+    "UNB/Matérias que faltam.md",
+    "Engenharia de sofware/Node",
+    "Engenharia de sofware/React/React.md",
+    "UNB",
+    "Planejamentos/Planejamento diário/1. Segunda.md",
+    "Engenharia de sofware/React/CSS.md",
+    "Engenharia de sofware/CSS.md",
     "Engenharia de sofware/Conteúdos/Requisitos/Caso de uso.md",
     "Engenharia de sofware/Conteúdos/Requisitos/História de usuário.md",
     "Engenharia de sofware/Conteúdos/Requisitos/Scrum.md",
@@ -234,8 +238,6 @@
     "Excalidraw/Drawing 2025-02-06 09.09.14.excalidraw.md",
     "Engenharia de sofware/Conteúdos/Java/Bean.md",
     "Engenharia de sofware/Conteúdos/Java/CDI.md",
-    "Engenharia de sofware/Conteúdos/Java/EJB.md",
-    "Engenharia de sofware/Conteúdos/Java/Hibernate.md",
     "Imagens/Pasted image 20250204125632.png",
     "Imagens/Pasted image 20250204125407.png",
     "Imagens/Pasted Image 20250204112936_491.png",
@@ -249,8 +251,6 @@
     "Engenharia de sofware/Conteúdos/Requisitos/Scrum",
     "Engenharia de sofware/Git",
     "Engenharia de sofware/React",
-    "Engenharia de sofware/Conteúdos/Banco de dados",
-    "Engenharia de sofware/Conteúdos/Banco de dados",
     "Sem título.canvas"
   ]
 }

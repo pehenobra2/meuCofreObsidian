@@ -156,17 +156,36 @@ const saudacao3 = (nome) => `Olá, ${nome}!`;
 
 ### 7.2. Funções como Props
 
-No React, podemos passar funções como propriedades para componentes filhos, permitindo a comunicação entre eles.
+No React, podemos passar funções como propriedades (props) para componentes filhos, permitindo que esses componentes executem ações definidas no componente pai. Isso é útil para comunicação entre componentes e torna a estrutura do código mais modular e reutilizável.
+
+Por exemplo, imagine que temos um componente `Botao`, que deve executar uma ação sempre que for clicado. No entanto, em vez de definir essa ação dentro do próprio `Botao`, permitimos que o componente pai forneça essa lógica dinamicamente:
 
 ```jsx
-const Botao = ({ aoClicar }) => <button onClick={aoClicar}>Clique aqui</button>;
+const Botao = ({ aoClicar, texto }) => (
+  <button onClick={aoClicar}>{texto}</button>
+);
 
 const App = () => {
-  const mostrarAlerta = () => alert("Botão clicado!");
+  const exibirMensagem = () => {
+    alert("Você clicou no botão!");
+  };
 
-  return <Botao aoClicar={mostrarAlerta} />;
+  return (
+    <div>
+      <h1>Exemplo de Funções como Props</h1>
+      <Botao aoClicar={exibirMensagem} texto="Clique aqui" />
+    </div>
+  );
 };
 ```
+**Explicação**:
+1. Componente Filho (`Botao`)
+	- Recebe uma função `aoClicar` como prop.
+	- Associa essa função ao evento `onClick` do botão.
+	- Também recebe um texto dinâmico para personalizar o botão.
+2. Componente Pai (`App`)
+	- Define a função `exibirMensagem`, que exibe um alerta.
+	- Passa essa função para o `Botao` via a prop `aoClicar`.
 
 ### 7.3. Manipulação de Eventos
 
@@ -378,8 +397,8 @@ Se precisar de compartilhar estados entre componentes, use **Context API** ou `u
 
 O `useState` retorna um array com dois elementos:
 
-1. O valor atual do estado (exemplo: `contador`)
-2. Uma função para atualizar o estado (exemplo: `setContador`)
+3. O valor atual do estado (exemplo: `contador`)
+4. Uma função para atualizar o estado (exemplo: `setContador`)
 
 **Exemplo básico**:
 ```js
