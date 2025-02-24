@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Engenharia de sofware/Node/Node.md",
+                "file": "Planejamentos/Planejamento diário/5. Sexta.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Node"
+              "title": "5. Sexta"
             }
           }
         ],
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Engenharia de sofware/Node/Node.md",
+                "file": "Planejamentos/Planejamento diário/5. Sexta.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de Node"
+              "title": "Sumário de 5. Sexta"
             }
           },
           {
@@ -205,14 +205,14 @@
   },
   "active": "ad86c7c93e7471a1",
   "lastOpenFiles": [
-    "Planejamentos/Planejamento diário/5. Sexta.md",
     "Planejamentos/Planejamento diário/4. Quinta.md",
+    "Planejamentos/Planejamento diário/5. Sexta.md",
     "Planejamentos/Planejamento diário/3. Quarta.md",
-    "Planejamentos/Planejamento diário/2. Terça.md",
+    "Engenharia de sofware/React/React.md",
     "Engenharia de sofware/Node/Node.md",
+    "Planejamentos/Planejamento diário/2. Terça.md",
     "UNB/Matérias que faltam.md",
     "Engenharia de sofware/Node",
-    "Engenharia de sofware/React/React.md",
     "UNB",
     "Planejamentos/Planejamento diário/1. Segunda.md",
     "Engenharia de sofware/React/CSS.md",
