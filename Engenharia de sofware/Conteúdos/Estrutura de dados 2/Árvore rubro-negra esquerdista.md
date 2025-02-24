@@ -28,6 +28,44 @@ Matematicamente, considerando $bh$ com altura negra:
 
 ---
 
+## Exemplo
+
+Vamos inserir os seguintes números, na ordem dada:
+$$4, 1, 12, 6, 7, 14$$
+### Passo a passo da construção
+
+![[Pasted image 20250206100205.png]]
+
+1. Inserindo o 4
+	1. Como ele é o primeiro nó, ele é preto
+2. Inserindo o 1
+	1. Como 1 é menor que 4, ele se torna filho esquerdo vermelho
+3. Inserindo 12
+	1. 12 é maior que 4, então vira filho direito
+4. Como temos um filho esquerdo vermelho e um filho direito vermelho aplicamos um `sobe a cor` para manter o balanceamento
+	1. A raiz sempre precisa ser preta, então pintamos 4 de preto
+5. Inserindo 6
+	2. Como o 6 é menor que 12, ele entra como filho esquerdo vermelho de 12
+6. Inserindo 7
+	3. Como o 7 é maior que 6, ele entra como filho direito vermelho de 6
+7. Como há um filho direito vermelho e o filho esquerdo é preto, realizamos uma rotação à esquerda em 6, promovendo 7 para o lugar de 6
+8. Como temos 2 filho esquerdos vermelhos seguidos fazemos uma rotação à direita em 12, fazendo com que:
+	1. O 6 continue sendo filho esquerdo vermelho de 7
+	2. 7 se torne preto
+	3. 12 se torne o filho direito vermelho de 7
+9. Depois aplicamos o `sobe a cor` tornando 7 vermelho e os filhos do 7 pretos
+10. Depois rotacionamos em 4, fazendo com que:
+	1. 1 continue sendo filho esquerdo de 4
+	2. 6 vire filho direito preto de 4
+	3. 4 se torne filho esquerdo vermelho de 7
+	4. 12 continue sendo filho direito de 7
+11. Insere o 14
+	2. Como 14 é maior que 12, ele entra como filho direito vermelho de 12
+12. Como há um filho direito vermelho e o filho esquerdo é preto, realizamos uma rotação à esquerda em 12, fazendo com que:
+	1. 12 vire filho esquerdo vermelho de 14
+	2. 14 vire o filho direito preto de 7
+
+---
 ## Implementação em C
 
 ### Definição dos Nós

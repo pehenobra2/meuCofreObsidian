@@ -1,4 +1,4 @@
-## 1. O que é o EntityManager no [[JPA]]?❓
+## 1. O que é o EntityManager no [[JPA]]❓
 
 O `EntityManager` é a interface principal do **[[JPA|JPA (Java Persistence API)]]** usada para gerenciar as operações do banco de dados, como **inserir**, **atualizar**, **deletar** e **buscar** entidades, em resumo fazer o CRUD.
 
