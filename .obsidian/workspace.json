@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Planejamentos/Planejamento diário/5. Sexta.md",
+                "file": "Projeto Realli/Cronograma.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5. Sexta"
+              "title": "Cronograma"
             }
           }
         ],
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 200
   },
   "right": {
     "id": "f6b1d15f12fdd42a",
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Planejamentos/Planejamento diário/5. Sexta.md",
+                "file": "Projeto Realli/Cronograma.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de 5. Sexta"
+              "title": "Sumário de Cronograma"
             }
           },
           {
@@ -183,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -200,21 +200,30 @@
       "obsidian-git:Open Git source control": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-kanban:Criar um novo quadro": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "markdown-importer:Abrir importador Markdown": false
     }
   },
   "active": "ad86c7c93e7471a1",
   "lastOpenFiles": [
+    "Projeto Realli/DER.md",
+    "Projeto Realli/Cronograma.md",
+    "Excalidraw/Drawing 2025-02-24 11.37.31.excalidraw.md",
+    "Projeto Realli/Requisitos.md",
+    "Imagens/Pasted image 20250224104017.png",
+    "Imagens/Pasted image 20250224103819.png",
     "Planejamentos/Planejamento diário/4. Quinta.md",
+    "Projeto Realli",
+    "Engenharia de sofware/Projeto Realli",
     "Planejamentos/Planejamento diário/5. Sexta.md",
     "Planejamentos/Planejamento diário/3. Quarta.md",
+    "Planejamentos/Planejamento diário/2. Terça.md",
+    "Planejamentos/Planejamento diário/1. Segunda.md",
     "Engenharia de sofware/React/React.md",
     "Engenharia de sofware/Node/Node.md",
-    "Planejamentos/Planejamento diário/2. Terça.md",
     "UNB/Matérias que faltam.md",
     "Engenharia de sofware/Node",
     "UNB",
-    "Planejamentos/Planejamento diário/1. Segunda.md",
     "Engenharia de sofware/React/CSS.md",
     "Engenharia de sofware/CSS.md",
     "Engenharia de sofware/Conteúdos/Requisitos/Caso de uso.md",
@@ -234,10 +243,6 @@
     "Engenharia de sofware/Conteúdos/Estrutura de dados 2/Max-Heap.md",
     "pdfs/Max-Heap.pdf",
     "Imagens/Pasted image 20250206100205.png",
-    "Excalidraw/desenhoExemploABBRedBlackEsquerdista.excalidraw.md",
-    "Excalidraw/Drawing 2025-02-06 09.09.14.excalidraw.md",
-    "Engenharia de sofware/Conteúdos/Java/Bean.md",
-    "Engenharia de sofware/Conteúdos/Java/CDI.md",
     "Imagens/Pasted image 20250204125632.png",
     "Imagens/Pasted image 20250204125407.png",
     "Imagens/Pasted Image 20250204112936_491.png",
@@ -245,12 +250,8 @@
     "Imagens/Pasted image 20250204112513.png",
     "Imagens/Pasted image 20250204111215.png",
     "Imagens/Pasted image 20250204110247.png",
-    "Imagens/Pasted image 20250204110035.png",
     "Engenharia de sofware/Conteúdos/Arquitetura de Software/APIs",
-    "Imagens/Pasted image 20250204104233.png",
     "Engenharia de sofware/Conteúdos/Requisitos/Scrum",
-    "Engenharia de sofware/Git",
-    "Engenharia de sofware/React",
     "Sem título.canvas"
   ]
 }
