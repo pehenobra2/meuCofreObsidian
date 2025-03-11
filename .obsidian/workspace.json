@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projeto Realli/Backlog.md",
+                "file": "Igreja/Estudo/Virtudes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Backlog"
+              "title": "Virtudes"
             }
           }
         ],
@@ -206,11 +206,13 @@
   },
   "active": "ad86c7c93e7471a1",
   "lastOpenFiles": [
+    "Projeto Realli/Backlog.md",
+    "Igreja/Estudo/Virtudes.md",
+    "Igreja/Estudo",
     "Projeto Realli/Cronograma.md",
     "Projeto Realli/DER.md",
     "Projeto Realli/Documentação Backend.md",
     "Projeto Realli/Requisitos.md",
-    "Projeto Realli/Backlog.md",
     "Planejamentos/Planejamento diário/2. Terça.md",
     "Planejamentos/Planejamento diário/3. Quarta.md",
     "Planejamentos/Planejamento diário/1. Segunda.md",
@@ -238,7 +240,6 @@
     "Engenharia de sofware/Conteúdos/Requisitos/Kanban.md",
     "Kanban.md",
     "Engenharia de sofware/Conteúdos/Estrutura de dados 2/Árvore rubro-negra esquerdista.md",
-    "Engenharia de sofware/Conteúdos/Estrutura de dados 2/Árvores.md",
     "Engenharia de sofware/Conteúdos/Requisitos",
     "pdfs/Árvore rubro-negra esquerdista.pdf",
     "pdfs/Grafos.pdf",
@@ -251,7 +252,6 @@
     "Imagens/Pasted image 20250204112513.png",
     "Imagens/Pasted image 20250204111215.png",
     "Imagens/Pasted image 20250204110247.png",
-    "Engenharia de sofware/Conteúdos/Arquitetura de Software/APIs",
     "Sem título.canvas"
   ]
 }
