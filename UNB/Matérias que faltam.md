@@ -1,21 +1,22 @@
 
 - [ ] Métodos numéricos
-- [ ] SBD2
-- [ ] Embarcados
-- [ ] Paradigmas
+- [x] SBD2
+- [x] Embarcados
+- [x] Paradigmas
 - [ ] pspd
-- [ ] Gerencia
+- [x] Gerencia
 - [ ] EPS
-- [ ] tcc 1
+- [x] tcc 1
 - [ ] tcc 2
-- [ ] Estágio
+- [x] Estágio
 
 
 ## 2025.1
 
 Estágio
 tcc1
-métodos
+sbd2
+paradigmas
 gerencia
 Embarcados
 
@@ -24,5 +25,3 @@ Embarcados
 tcc2
 pspd
 eps
-paradigmas
-b2
