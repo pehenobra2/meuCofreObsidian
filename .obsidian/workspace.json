@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNB/Matérias que faltam.md",
+                "file": "Engenharia de sofware/Conteúdos/Java/Trilha de estudo/Parte 1 - Domínio do Java e Boas Práticas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Matérias que faltam"
+              "title": "Parte 1 - Domínio do Java e Boas Práticas"
             }
           }
         ],
@@ -204,9 +204,15 @@
       "markdown-importer:Abrir importador Markdown": false
     }
   },
-  "active": "a902fd9bc006b75a",
+  "active": "ad86c7c93e7471a1",
   "lastOpenFiles": [
-    "Engenharia de sofware/Conteúdos/Java/Sem título",
+    "Engenharia de sofware/Conteúdos/Java/Trilha de estudo/Links dos conteúdos.md",
+    "Engenharia de sofware/Conteúdos/Java/Trilha de estudo/Parte 4 - Segurança, DevOps e Soft Skills.md",
+    "Engenharia de sofware/Conteúdos/Java/Trilha de estudo/Parte 3 - Arquitetura Avançada e Performance.md",
+    "Engenharia de sofware/Conteúdos/Java/Trilha de estudo/Parte 2 - Arquitetura e Frameworks Essenciais.md",
+    "Engenharia de sofware/Conteúdos/Java/Trilha de estudo/Parte 1 - Domínio do Java e Boas Práticas.md",
+    "UNB/Matérias que faltam.md",
+    "Engenharia de sofware/Conteúdos/Java/Trilha de estudo",
     "Engenharia de sofware/Conteúdos/Paradigmas/Paradigmas de Programação.md",
     "Engenharia de sofware/Conteúdos/Paradigmas",
     "Planejamentos/Planejamento diário/2. Terça.md",
@@ -230,20 +236,14 @@
     "Planejamentos/Planejamento diário/5. Sexta.md",
     "Engenharia de sofware/React/React.md",
     "Engenharia de sofware/Node/Node.md",
-    "UNB/Matérias que faltam.md",
     "Engenharia de sofware/Node",
     "UNB",
     "Engenharia de sofware/React/CSS.md",
     "Engenharia de sofware/CSS.md",
     "Engenharia de sofware/Conteúdos/Requisitos/Caso de uso.md",
     "Engenharia de sofware/Conteúdos/Requisitos/História de usuário.md",
-    "Engenharia de sofware/Conteúdos/Requisitos/Scrum.md",
-    "metodologia ágil.md",
-    "Engenharia de sofware/Conteúdos/Requisitos/Metodologias ágeis.md",
-    "Engenharia de sofware/Conteúdos/Requisitos/Kanban.md",
     "Engenharia de sofware/Conteúdos/Requisitos",
     "pdfs/Árvore rubro-negra esquerdista.pdf",
-    "pdfs/Grafos.pdf",
     "Imagens/Pasted image 20250206100205.png",
     "Imagens/Pasted image 20250204125632.png",
     "Imagens/Pasted image 20250204125407.png",
