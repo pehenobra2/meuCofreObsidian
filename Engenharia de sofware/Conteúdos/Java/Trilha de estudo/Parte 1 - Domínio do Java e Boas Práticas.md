@@ -2,12 +2,12 @@
 
 ## Conteúdos:
 
-- [ ] Java Moderno (java 17+) - Novidades, Streams API, Lambdas, Records, Sealed Classes.
+- [x] Java Moderno (java 17+) - Novidades, Streams API, Lambdas, Records, Sealed Classes.
 - [ ] JVM Internals - Garbage Collection, ClassLoaders, Performance tuning.
 - [ ] Design Patters - Singleton, Factory, Builder, Observer, Strategy.
 - [ ] SOLID & Clean Code - Código Limpo, boas práticas e refatoração.
 - [ ] Testes Automatizados - JUnit, Mockito, Testcontainers.
-- [ ] Banco de dados relacional (PostgreSQL) - Modelagem e otimização de queries.
+- [x] Banco de dados relacional (PostgreSQL) - Modelagem e otimização de queries.
 
 
 ## Prática: Projeto MinhasFinanças - Spring boot e React Native
