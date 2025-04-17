@@ -84,5 +84,7 @@ O que precisa:
 ## Liturgia Eucarística
 
 1. Segue normal
-2. Como tem batizado os batizados comungam primeiro nas duas espécies
-3. Benção solene
+2. Liturgia Eucarística 1
+3. Prefácio da Páscoa 1: O mistério pascal P.466
+4. Como tem batizado os batizados comungam primeiro nas duas espécies
+5. Benção solene
