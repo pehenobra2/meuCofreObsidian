@@ -29,21 +29,21 @@
 - [ ] 29 - não tem dados - jasper
 - [ ] 30 - Sem cabeçalho
 - [x] 31 - 
-- [ ] 32 - Sem cabeçalho
+- [x] 32 - Sem cabeçalho
 - [x] 33
-- [ ] 34 - Sem cabeçalho
+- [x] 34 - Sem cabeçalho
 - [x] 35
 - [x] 36 
 - [x] 37
 - [x] 38
-- [ ] 39 - Sem cabeçalho
-- [ ] 40 - Sem cabeçalho
+- [x] 39 - Sem cabeçalho
+- [x] 40 - Sem cabeçalho
 - [x] 41
 - [x] 42
-- [ ] 43 - Sem cabeçalho
-- [ ] 44 - Sem cabeçalho
-- [ ] 45 - Sem cabeçalho
-- [ ] 46 - Sem cabeçalho
+- [x] 43 - Sem cabeçalho
+- [x] 44 - Sem cabeçalho
+- [x] 45 - Sem cabeçalho
+- [x] 46 - Sem cabeçalho
 - [x] 47
 - [x] 48
 - [x] 49
@@ -55,21 +55,21 @@
 - [x] 55
 - [ ] 56 - Não possui dados - jasper
 - [x] 57
-- [ ] 58 - Olhar banco - jasper
+- [x] 58 - Olhar banco - jasper
 - [x] 59 - pdf
-- [ ] 60 - Sem cabeçalho
+- [x] 60 - Sem cabeçalho
 - [x] 61
-- [ ] 62 - Sem cabeçad
+- [x] 62 - Sem cabeçad
 - [x] 63
 - [x] 64
 - [x] 65
 - [ ] 66 - Sem cabeçalho
-- [ ] 67 - Sem cabeçalho
-- [ ] 68 - Sem cabeçalho
+- [x] 67 - Sem cabeçalho
+- [x] 68 - Sem cabeçalho
 - [x] 69 - 
 - [x] 70
-- [ ] 71 - Sem cabeçalho
-- [ ] 72 - Sem cabeçalho
+- [x] 71 - Sem cabeçalho
+- [x] 72 - Sem cabeçalho
 - [x] 73
 - [x] 74
 - [x] 75
@@ -77,8 +77,8 @@
 - [x] 77
 - [ ] 78 - Sem informação no relatório - jasper
 - [x] 79
-- [ ] 80 - Sem cabeçalho
+- [x] 80 - Sem cabeçalho
 - [x] 81
-- [ ] 82 - Sem cabeçalho
+- [x] 82 - Sem cabeçalho
 - [ ] 83  - Erro 1323
 - [ ] 84 - Erro 1324
