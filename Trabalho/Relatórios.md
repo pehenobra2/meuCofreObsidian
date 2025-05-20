@@ -1,4 +1,4 @@
-- [ ] 01 - Pela minha pesquisa não tem dados para pegar
+- [x] 01 - Pela minha pesquisa não tem dados para pegar
 - [x] 02
 - [x] 03
 - [x] 04 - Não tem informações no relatório
@@ -6,28 +6,28 @@
 - [x] 06
 - [x] 07 - Não possui dados, Postalis e nem Belem
 - [x] 08
-- [ ] 09 - Sem cabeçalho
-- [ ] 10 - Sem cabeçalho
-- [ ] 11 - Sem cabeçalho
-- [ ] 12 - Sem cabeçalho
-- [ ] 13 - Sem cabeçalho
-- [ ] 14 - Não tem esse relatório no psimdev
-- [ ] 15 - Não possui dados desde 01/10/24 Postalis e Belem - jasper
+- [x] 09 - Sem cabeçalho
+- [x] 10 - Sem cabeçalho
+- [x] 11 - Sem cabeçalho
+- [x] 12 - Sem cabeçalho
+- [x] 13 - Sem cabeçalho
+- [x] 14 - Não tem esse relatório no psimdev
+- [x] 15 - Não possui dados desde 01/10/24 Postalis e Belem - jasper
 - [ ] 16 - Erro no sistema: ERRO 1322
-- [ ] 17 - Não ta respondendo o psimdev
-- [ ] 18 - Não possui dados - jasper
-- [ ] 19 - Tirar dúvida, toda estranha, mas não parece estar sem cabeçalho
-- [ ] 20 - Sem cabeçalho
-- [ ] 21 - Parece ok
+- [x] 17 - Não ta respondendo o psimdev
+- [x] 18 - Não possui dados - jasper
+- [x] 19 - Tirar dúvida, toda estranha, mas não parece estar sem cabeçalho
+- [x] 20 - Sem cabeçalho
+- [x] 21 - Parece ok
 - [ ] 22 - Não tem dados - jasper
-- [ ] 23 - Parece ok
-- [ ] 24 - Sem cabeçalho
-- [ ] 25 - Sem cabeçalho
+- [x] 23 - Parece ok
+- [x] 24 - Sem cabeçalho
+- [x] 25 - Sem cabeçalho
 - [x] 26 - 
 - [x] 27
 - [ ] 28 - Não tem informações no relatõrio - jasper
 - [ ] 29 - não tem dados - jasper
-- [ ] 30 - Sem cabeçalho
+- [x] 30 - Sem cabeçalho
 - [x] 31 - 
 - [x] 32 - Sem cabeçalho
 - [x] 33
@@ -63,7 +63,7 @@
 - [x] 63
 - [x] 64
 - [x] 65
-- [ ] 66 - Sem cabeçalho
+- [x] 66 - Sem cabeçalho
 - [x] 67 - Sem cabeçalho
 - [x] 68 - Sem cabeçalho
 - [x] 69 - 
