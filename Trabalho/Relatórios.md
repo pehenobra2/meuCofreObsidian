@@ -1,4 +1,4 @@
-- [x] 01 - Pela minha pesquisa não tem dados para pegar
+- [ ] 01 - Pela minha pesquisa não tem dados para pegar - sql
 - [x] 02
 - [x] 03
 - [x] 04 - Não tem informações no relatório
@@ -13,20 +13,20 @@
 - [x] 13 - Sem cabeçalho
 - [x] 14 - Não tem esse relatório no psimdev
 - [x] 15 - Não possui dados desde 01/10/24 Postalis e Belem - jasper
-- [ ] 16 - Erro no sistema: ERRO 1322
+- [ ] 16 - Erro no sistema: ERRO 1322 - sql
 - [x] 17 - Não ta respondendo o psimdev
 - [x] 18 - Não possui dados - jasper
 - [x] 19 - Tirar dúvida, toda estranha, mas não parece estar sem cabeçalho
 - [x] 20 - Sem cabeçalho
 - [x] 21 - Parece ok
-- [ ] 22 - Não tem dados - jasper
+- [x] 22 - Não tem dados - jasper
 - [x] 23 - Parece ok
 - [x] 24 - Sem cabeçalho
 - [x] 25 - Sem cabeçalho
 - [x] 26 - 
 - [x] 27
-- [ ] 28 - Não tem informações no relatõrio - jasper
-- [ ] 29 - não tem dados - jasper
+- [x] 28 - Não tem informações no relatõrio - jasper
+- [x] 29 - não tem dados - jasper
 - [x] 30 - Sem cabeçalho
 - [x] 31 - 
 - [x] 32 - Sem cabeçalho
@@ -48,12 +48,12 @@
 - [x] 48
 - [x] 49
 - [x] 50
-- [ ] 51 - Não possui dados
-- [ ] 52 - Buscar no banco
+- [x] 51 - Não possui dados
+- [x] 52 - Buscar no banco
 - [x] 53
 - [x] 54
 - [x] 55
-- [ ] 56 - Não possui dados - jasper
+- [ ] 56 - Não possui dados - sql
 - [x] 57
 - [x] 58 - Olhar banco - jasper
 - [x] 59 - pdf
@@ -75,10 +75,10 @@
 - [x] 75
 - [x] 76
 - [x] 77
-- [ ] 78 - Sem informação no relatório - jasper
+- [x] 78 - Sem informação no relatório - jasper
 - [x] 79
 - [x] 80 - Sem cabeçalho
 - [x] 81
 - [x] 82 - Sem cabeçalho
-- [ ] 83  - Erro 1323
-- [ ] 84 - Erro 1324
+- [ ] 83  - Erro 1323 - sql
+- [x] 84 - Erro 1324
