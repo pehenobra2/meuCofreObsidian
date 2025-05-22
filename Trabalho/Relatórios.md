@@ -1,4 +1,4 @@
-- [ ] 01 - Pela minha pesquisa não tem dados para pegar - sql
+- [x] 01 - Pela minha pesquisa não tem dados para pegar - sql
 - [x] 02
 - [x] 03
 - [x] 04 - Não tem informações no relatório
@@ -13,7 +13,7 @@
 - [x] 13 - Sem cabeçalho
 - [x] 14 - Não tem esse relatório no psimdev
 - [x] 15 - Não possui dados desde 01/10/24 Postalis e Belem - jasper
-- [ ] 16 - Erro no sistema: ERRO 1322 - sql
+- [x] 16 - Erro no sistema: ERRO 1322 - sql
 - [x] 17 - Não ta respondendo o psimdev
 - [x] 18 - Não possui dados - jasper
 - [x] 19 - Tirar dúvida, toda estranha, mas não parece estar sem cabeçalho
@@ -53,7 +53,7 @@
 - [x] 53
 - [x] 54
 - [x] 55
-- [ ] 56 - Não possui dados - sql
+- [x] 56 - Não possui dados - sql
 - [x] 57
 - [x] 58 - Olhar banco - jasper
 - [x] 59 - pdf
@@ -80,5 +80,22 @@
 - [x] 80 - Sem cabeçalho
 - [x] 81
 - [x] 82 - Sem cabeçalho
-- [ ] 83  - Erro 1323 - sql
+- [x] 83  - Erro 1323 - sql
 - [x] 84 - Erro 1324
+
+Modificados:
+
+22- Dependência emergência
+34 - histórico acesso usuário
+53 - mensagem sintético
+66 - permissões sistema
+09 - Cofre abertura não realizada
+10 - Cofre Operações Fechadura - Compartilhada
+11 - Cofre Operações Fechadura - Não Compartilhada
+12 - cofre tipo de abertura
+13 - configuração de mensagem
+14 - Configuração de Planos de Monitoramento
+15 - Configuração Rastreadores Ativos
+20 - Dependencia contatos
+17 - Controladoras de Alarme com Envio de Mensagens 602, 603, 604
+18 - Controladoras de Alarme Habilitadas e sem Comunicação
