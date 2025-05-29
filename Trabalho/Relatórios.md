@@ -85,17 +85,42 @@
 
 Modificados:
 
-22- Dependência emergência
-34 - histórico acesso usuário
-53 - mensagem sintético
-66 - permissões sistema
-09 - Cofre abertura não realizada
-10 - Cofre Operações Fechadura - Compartilhada
-11 - Cofre Operações Fechadura - Não Compartilhada
-12 - cofre tipo de abertura
-13 - configuração de mensagem
-14 - Configuração de Planos de Monitoramento
-15 - Configuração Rastreadores Ativos
-20 - Dependencia contatos
-17 - Controladoras de Alarme com Envio de Mensagens 602, 603, 604
-18 - Controladoras de Alarme Habilitadas e sem Comunicação
+09 - Cofre abertura não realizada  
+10 - Cofre Operações Fechadura - Compartilhada  
+11 - Cofre Operações Fechadura - Não Compartilhada  
+12 - cofre tipo de abertura  
+13 - configuração de mensagem  
+14 - Configuração de Planos de Monitoramento  
+15 - Configuração Rastreadores Ativos  
+17 - Controladoras de Alarme com Envio de Mensagens 602, 603, 604  
+18 - Controladoras de Alarme Habilitadas e sem Comunicação  
+20 - Dependência contatos  
+22 - Dependência emergência  
+24 - Dependências com Controladoras CFTV Cadastradas (Analítico)  
+25 - Dependências com Controladoras CFTV Cadastradas (Sintético)  
+29 - Geral de Acionamentos  
+30 - Geral de Eventos  
+32 - Grupo de Monitoramento  
+34 - histórico acesso usuário  
+39 - Indisponibilidade Aplicação  
+40 - Informação Central de Alarme  
+43 - Inventário Perimetral  
+44 - Meios de Comunicação Alarme  
+45 - Meios de Comunicação Alarme - DO DIA  
+46 - Meios de Comunicação Alarme - ÚLTIMOS 7 DIAS  
+51 - Mensagens CFTV (Dependência)  
+52 - Mensagens CFTV (Mensagem)  
+53 - mensagem sintético  
+54 - Mensagens Sintético - Sistema - Alarme Intrusão  
+58 - Ocorrências de Mensagens Analisadas Por Regras  
+60 - Ocorrências de Mensagens Geradas Manualmente (XLS) - GESIN  
+62 - Totalizador Dispositivo Ativo Perimetral  
+66 - permissões sistema  
+67 - PGM - Quantidade de Geradores de Neblina  
+68 - Posição Dispositivos Ativos  
+71 - Quantidade Componentes Rastreadores  
+72 - Quantidade Componentes Resposta Incidente  
+78 - Resolução de WorkItem (Planilha)  
+80 - Senhas e Contrassenhas por Dependência  
+82 - Totalizador Dispositivo Ativo DOSI  
+84 - Totalizador Dispositivo Ativo (pdf)
