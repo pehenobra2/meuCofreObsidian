@@ -1,7 +1,15 @@
-### Lesson 1: Asking About Actions in the Past  
+### 1. O que são e para que servem  
 
-**You ask**: Did **he** watch a movie?  
-**I answer**: No, he didn't watch a movie.  
+- Uso principal:
+	- Hábitos e rotinas (I go to the gym every Monday.)
+	- Fatos gerais e verdade universais (Water boils at 100°C.)
+	- Estados permanentes (She works at Realli.)
+- Formação:
+	- Afirmativa:
+
+	- Negativa:
+	- Interrogativa:
+
 
 ---
 
