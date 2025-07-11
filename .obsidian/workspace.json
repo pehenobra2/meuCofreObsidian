@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "English/Present Simple.md",
+                "file": "English/Simple Present and Present Continuous.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Present Simple"
+              "title": "Simple Present and Present Continuous"
             }
           }
         ],
@@ -79,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "f6b1d15f12fdd42a",
@@ -208,8 +207,10 @@
   },
   "active": "a8c0013d062aa7a4",
   "lastOpenFiles": [
+    "Imagens/Pasted image 20250704105502.png",
+    "Imagens/Pasted image 20250704105457.png",
     "English/Planning.md",
-    "English/Present Simple.md",
+    "English/Simple Present and Present Continuous.md",
     "Trabalho/Relatórios.md",
     "Igreja/Semana santa/Vigília Pascal.md",
     "Trabalho",
@@ -239,7 +240,6 @@
     "Igreja/Estudo",
     "Projeto Realli/Cronograma.md",
     "Projeto Realli/DER.md",
-    "Projeto Realli/Documentação Backend.md",
     "Igreja/escala",
     "Imagens/Pasted image 20250224104017.png",
     "Imagens/Pasted image 20250224103819.png",
@@ -253,7 +253,6 @@
     "Imagens/Pasted image 20250204112753.png",
     "Imagens/Pasted image 20250204112513.png",
     "Imagens/Pasted image 20250204111215.png",
-    "Imagens/Pasted image 20250204110247.png",
     "Sem título.canvas"
   ]
 }
