@@ -1,13 +1,13 @@
 
 - [ ] Métodos numéricos
-- [x] SBD2
+- [ ] SBD2
 - [x] Embarcados
-- [x] Paradigmas
+- [ ] Paradigmas
 - [ ] pspd
 - [x] Gerencia
 - [ ] EPS
 - [x] tcc 1
-- [ ] tcc 2
+- [x] tcc 2
 - [x] Estágio
 
 
@@ -25,3 +25,36 @@ Embarcados
 tcc2
 pspd
 eps
+
+## Opção 1
+
+| Horário | Segunda | Terça | Quarta  | Quinta | Sexta |
+| ------- | ------- | ----- | ------- | ------ | ----- |
+| 08:00   |         |       |         |        |       |
+| 10:00   |         |       |         |        |       |
+| 12:00   |         |       | eps     |        | eps   |
+| 14:00   | metodos |       | metodos |        |       |
+| 16:00   |         |       |         |        |       |
+| 18:00   |         |       |         |        |       |
+
+## Opção 2
+
+| Horário | Segunda | Terça | Quarta  | Quinta | Sexta |
+| ------- | ------- | ----- | ------- | ------ | ----- |
+| 08:00   |         |       |         |        |       |
+| 10:00   |         |       |         |        |       |
+| 12:00   | pspd    |       | pspd    |        |       |
+| 14:00   | metodos |       | metodos |        |       |
+| 16:00   |         |       |         |        |       |
+| 18:00   |         |       |         |        |       |
+
+## Opção 3
+
+| Horário | Segunda | Terça   | Quarta | Quinta  | Sexta |
+| ------- | ------- | ------- | ------ | ------- | ----- |
+| 08:00   |         |         |        |         |       |
+| 10:00   |         |         |        |         |       |
+| 12:00   |         | metodos | eps    | metodos | eps   |
+| 14:00   | pspd    |         | pspd   |         |       |
+| 16:00   |         |         |        |         |       |
+| 18:00   |         |         |        |         |       |
