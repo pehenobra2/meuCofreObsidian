@@ -13,12 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Trabalho/Qualidade de software.md",
+                "file": "UNB/lista aniversário.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Qualidade de software"
+              "title": "lista aniversário"
+            }
+          },
+          {
+            "id": "fc3d5915f32babee",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.10"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notas de Lançamento 1.9.10"
             }
           }
         ],
@@ -191,6 +203,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Criar nova base": false,
       "switcher:Abrir a troca rápida": false,
       "graph:Abrir visualização em gráfico": false,
       "canvas:Criar novo canvas": false,
@@ -206,8 +219,9 @@
   },
   "active": "a8c0013d062aa7a4",
   "lastOpenFiles": [
-    "Obsidian/Teste.md",
     "Trabalho/Qualidade de software.md",
+    "UNB/lista aniversário.md",
+    "Obsidian/Teste.md",
     "Obsidian/Gráficos.md",
     "English/Past simple & Past continuous.md",
     "Engenharia de sofware/Conteúdos/Java/Conceitos java moderno/Records.md",
@@ -236,7 +250,6 @@
     "Engenharia de sofware/Conteúdos/Java/Conceitos java moderno",
     "Engenharia de sofware/Conteúdos/Java/Java Reflection.md",
     "Engenharia de sofware/Conteúdos/Java/Trilha de estudo/Links dos conteúdos.md",
-    "Engenharia de sofware/Conteúdos/Java/Trilha de estudo/Parte 4 - Segurança, DevOps e Soft Skills.md",
     "Engenharia de sofware/Conteúdos/Java/Trilha de estudo",
     "Engenharia de sofware/Conteúdos/Paradigmas",
     "Igreja/Estudo",
