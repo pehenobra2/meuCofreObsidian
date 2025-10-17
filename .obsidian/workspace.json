@@ -20,18 +20,6 @@
               "icon": "lucide-file",
               "title": "lista aniversário"
             }
-          },
-          {
-            "id": "fc3d5915f32babee",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Notas de Lançamento 1.9.10"
-            }
           }
         ],
         "stacked": true
@@ -87,7 +75,8 @@
               "title": "Marcadores"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -217,7 +206,7 @@
       "markdown-importer:Abrir importador Markdown": false
     }
   },
-  "active": "a8c0013d062aa7a4",
+  "active": "c657c8fcd2d6362d",
   "lastOpenFiles": [
     "Trabalho/Qualidade de software.md",
     "UNB/lista aniversário.md",
