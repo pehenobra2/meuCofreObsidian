@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "UNB/Organização.md",
+                "file": "UNB/prova2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Organização"
-            }
-          },
-          {
-            "id": "1592ef7ef01666a2",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.14"
-              },
-              "icon": "lucide-book-up",
-              "title": "Notas de Lançamento 1.9.14"
+              "title": "prova2"
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -88,8 +75,7 @@
               "title": "Marcadores"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -219,10 +205,12 @@
       "markdown-importer:Abrir importador Markdown": false
     }
   },
-  "active": "1592ef7ef01666a2",
+  "active": "a902fd9bc006b75a",
   "lastOpenFiles": [
-    "Trabalho/Qualidade de software.md",
+    "Sem título",
     "UNB/Organização.md",
+    "UNB/prova2.md",
+    "Trabalho/Qualidade de software.md",
     "Obsidian/Teste.md",
     "Obsidian/Gráficos.md",
     "English/Past simple & Past continuous.md",
@@ -250,8 +238,6 @@
     "Engenharia de sofware/Conteúdos/Banco de dados/Tipos de Banco de Dados.md",
     "Engenharia de sofware/Conteúdos/Banco de dados/SQL.md",
     "Engenharia de sofware/Conteúdos/Java/Conceitos java moderno",
-    "Engenharia de sofware/Conteúdos/Java/Java Reflection.md",
-    "Engenharia de sofware/Conteúdos/Java/Trilha de estudo/Links dos conteúdos.md",
     "Engenharia de sofware/Conteúdos/Java/Trilha de estudo",
     "Engenharia de sofware/Conteúdos/Paradigmas",
     "Igreja/Estudo",
