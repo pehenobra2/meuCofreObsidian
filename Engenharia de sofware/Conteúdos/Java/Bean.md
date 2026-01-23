@@ -3,7 +3,7 @@
 
 Um JavaBean (ou simplismente Bean) é uma classe Java reutilizável que segue um conjunto específico de regras para garantir que possa ser usada de maneira padronizada em aplicações Java.
 
-Os Beans são aplamente utilizados em frameworks como [[Spring]], [[JSF]], [[EJB]], e no próprio [[Java EE|Java EE/Jakarta EE]] para representar objetos de negócio, componentes de UI e configurações de aplicação.
+Os Beans são aplamente utilizados em frameworks como [[Engenharia de sofware/Conteúdos/Java/Spring]], [[JSF]], [[EJB]], e no próprio [[Java EE|Java EE/Jakarta EE]] para representar objetos de negócio, componentes de UI e configurações de aplicação.
 
 ---
 
@@ -84,9 +84,9 @@ public class MeuBean {
 }
 ```
 
-### 4.3. [[Spring]] Beans
+### 4.3. [[Engenharia de sofware/Conteúdos/Java/Spring]] Beans
 
-- Objetos gerenciados pelo [[Spring|Spring Framework]], usados para injeção de dependência.
+- Objetos gerenciados pelo [[Engenharia de sofware/Conteúdos/Java/Spring|Spring Framework]], usados para injeção de dependência.
 - Exemplo:
 ```java
 import org.springframework.stereotype.Component;
