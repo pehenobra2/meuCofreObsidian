@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "Spring"
             }
+          },
+          {
+            "id": "c4f7683c788f925d",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Notas de Lançamento 1.11.5"
+            }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -206,7 +219,7 @@
       "markdown-importer:Abrir importador Markdown": false
     }
   },
-  "active": "a8c0013d062aa7a4",
+  "active": "c4f7683c788f925d",
   "lastOpenFiles": [
     "UNB/prova2.md",
     "junior-senior/Spring.md",
